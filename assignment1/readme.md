@@ -42,3 +42,15 @@ gunzip owt_valid.txt.gz
 
 cd ..
 ```
+
+===============================================================
+Standard transformer language model: 
+1. Overall Architecture: 
+2. Byte pair encoding
+3. Transformer model language architecture
+4. Training a transformer LM
+5. Training Loop
+6. Generating text
+7. Experiments
+
+
