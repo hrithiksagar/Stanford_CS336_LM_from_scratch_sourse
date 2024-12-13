@@ -44,80 +44,50 @@ cd ..
 ```
 
 ===============================================================
-Standard transformer language model: 
-1. Overall Architecture
-2. Byte pair encoding
+## Standard Transformer Language Model Checklist
 
-    2.1. Unicode standard
+- [x] **1. Overall Architecture**
 
-    2.2. Unicode encoding
+- [x] **2. Byte Pair Encoding**
+  - [x] 2.1. Unicode Standard
+  - [x] 2.2. Unicode Encoding
+  - [ ] 2.3. Subword Tokenization
+  - [ ] 2.4. BPE Tokenizer Training
+  - [ ] 2.5. Experimenting with BPE Tokenizer Training
+  - [ ] 2.6. BPE Tokenizer: Encoding and Decoding
+    - [ ] 2.6.1. Encoding Text
+    - [ ] 2.6.2. Decoding Text
+  - [ ] 2.7. Experiments
 
-    2.3. Subword Tokenization
+- [ ] **3. Transformer Model Language Architecture**
+  - [ ] 3.1. Transformer LM
+    - [ ] 3.1.1. Token and Positional Embeddings
+    - [ ] 3.1.2. Pre-norm Transformer Block
+  - [ ] 3.2. Output Normalization and Embedding
+  - [ ] 3.3. Remark: Batching and Efficient Computation
+  - [ ] 3.4. Pre-norm Transformer Block
+    - [ ] 3.4.1. Root Mean Square Layer Normalization
+    - [ ] 3.4.2. Position-wise Feed-Forward Network
+    - [ ] 3.4.3. Scaled Dot Product Attention
+    - [ ] 3.4.4. Causal Multi-Head Self Attention
+  - [ ] 3.5. The Full Transformer LM
 
-    2.4. BPE Tokenizer Training 
+- [ ] **4. Training a Transformer LM**
+  - [ ] 4.1. Cross-Entropy Loss
+  - [ ] 4.2. SGD Optimizer
+  - [ ] 4.3. AdamW
+  - [ ] 4.4. Learning Rate Scheduler
+  - [ ] 4.5. Gradient Clipping
 
-    2.5. Experimenting wit BPE Tokenizer Training
+- [ ] **5. Training Loop**
+  - [ ] 5.1. Data Loader
+  - [ ] 5.2. Checkpointing
+  - [ ] 5.3. Training Loop
 
-    2.6. BPE Tokenizer: Encoding and Decoding
+- [ ] **6. Generating Text**
 
-        2.6.1. Encoding Text
-
-        2.6.2. Decoding Text
-
-    2.7. Experiments
-
-3. Transformer model language architecture
-
-    3.1. Transformer LM
-
-        3.1.1. Token and positional embeddings
-
-        3.1.2. Pre-norm Transformer Block
-
-    3.2. Output Normalization and Embedding 
-
-    3.3. Remark: batching and efficient computation
-
-    3.4. pre-norm transformer block
-
-        3.4.1. Root mean square layer normalization
-
-        3.4.2. Position-wise Feed-Forward Network
-
-        3.4.3. Scaled dot product attention
-
-        3.4.3. Casual Multi Head Self Attention
-
-    3.5. The full transformer LM
-
-4. Training a transformer LM
-
-    4.1. Cross-entropy loss
-
-    4.2. SGD Optimizer
-
-    4.3. AdamW
-
-    4.4. Learning Rate Scheduler
-
-    4.5. Gradient Clipping
-
-5. Training Loop
-    5.1. Data Loader
-
-    5.2. Checkpointing
-
-    5.3. Training Loop
-
-6. Generating text
-7. Experiments
-
-    7.1. How to run experiments and deliverables
-
-    7.2. TinyStories
-
-    7.3. Ablations and architecture modifications
-
-    7.4. Running on OpenWebText
-
-
+- [ ] **7. Experiments**
+  - [ ] 7.1. How to Run Experiments and Deliverables
+  - [ ] 7.2. TinyStories
+  - [ ] 7.3. Ablations and Architecture Modifications
+  - [ ] 7.4. Running on OpenWebText
